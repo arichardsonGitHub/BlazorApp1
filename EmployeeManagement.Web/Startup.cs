@@ -3,11 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Net.Http;
-using TodoList.Data;
 
-namespace TodoList
+namespace EmployeeManagement.Web
 {
     public class Startup
     {
@@ -25,9 +22,7 @@ namespace TodoList
             services.AddRazorPages();
             services.AddServerSideBlazor();
 
-            services.AddTransient<ITodoRepository, TodoRepository>();
-
-            services.AddHttpClient();
+            services.AddTransient<IUserRepository, UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
