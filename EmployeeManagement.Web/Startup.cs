@@ -1,3 +1,4 @@
+using EmployeeManagement.Web.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,6 +24,7 @@ namespace EmployeeManagement.Web
             services.AddServerSideBlazor();
 
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IAndrewSandboxContext, AndrewSandboxContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

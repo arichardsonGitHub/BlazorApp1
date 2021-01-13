@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿using EmployeeManagement.Web.Models;
+using Microsoft.AspNetCore.Components;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
