@@ -11,7 +11,7 @@ namespace EmployeeManagement.Web.Pages
 
         protected override async Task OnInitializedAsync()
         {
-            Users = await UserRepository.GetAll();
+            Users = await UserRepository.GetAllAsync();
         }
 
         [Inject]

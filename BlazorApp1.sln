@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.Models",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.Web", "EmployeeManagement.Web\EmployeeManagement.Web.csproj", "{8F1314CA-EE35-47FC-8638-3989F4DEB71D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{DCD1DC36-EC43-4837-A1E7-038A27EB697F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8F1314CA-EE35-47FC-8638-3989F4DEB71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F1314CA-EE35-47FC-8638-3989F4DEB71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F1314CA-EE35-47FC-8638-3989F4DEB71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD1DC36-EC43-4837-A1E7-038A27EB697F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD1DC36-EC43-4837-A1E7-038A27EB697F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD1DC36-EC43-4837-A1E7-038A27EB697F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD1DC36-EC43-4837-A1E7-038A27EB697F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

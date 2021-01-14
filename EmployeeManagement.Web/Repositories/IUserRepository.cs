@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 public interface IUserRepository
 {
-    Task<List<User>> GetAll();
+    Task<List<User>> GetAllAsync();
 
-    Task<User> GetByID(int id);
+    Task<User> GetByIDAsync(int id);
 }
